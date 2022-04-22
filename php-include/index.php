@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>php-ajax-dischi</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     
-    <?php  include __DIR__ . '/server/data.php' ?>
+    <?php  include __DIR__ . '/server/data.php' ;
+            include __DIR__ . '/partials/header.php';
+    ?>
 
-    <div>
-        <?php  foreach($albums as $album){?>
-            <img src="<?php echo $album['img'] ?>" alt="">
-            <h2><?php echo $album['title'] ?></h2>
-            <h3><?php echo $album['author'] ?></h3>
-        <?php } ?>
-    </div>
-
+    
+    <main id="app">
+        <div class="container">
+            <div class="album" v-for="album in albums">
+                <img :src="album.img" :alt="album.title">
+                <h2>{{album.title}}</h2>
+                <h3>{{album.author}}</h3>
+            </div>
+        </div>
+    </main>
 
 
 

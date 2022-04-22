@@ -16,11 +16,6 @@
             'author' => 'Cappadonia',
         ],
         [
-            'img' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bad-boy.it%2F2018%2F05%2Fcarl-brave-tutte-le-canzoni-di-notti-brave-album-cover%2F&psig=AOvVaw1yuEkm67KRQ_MS6bg7cwt2&ust=1650715905294000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICkpIzSp_cCFQAAAAAdAAAAABAJ',
-            'title' => 'Notti Brave',
-            'author' => 'Carl Brave',
-        ],
-        [
             'img' => 'https://concertionline.com/wp-content/uploads/2013/06/selena-gomez-album-cover-star-dance-twitter-lead.jpg',
             'title' => 'Stars Dance',
             'author' => 'Selena Gomez',
@@ -41,7 +36,7 @@
             'author' => 'Vasco Rossi',
         ],
         [
-            'img' => 'https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-69614859/fee_786_587_png',
+            'img' => 'https://m.media-amazon.com/images/I/81ScAa9vHEL._AC_SX466_.jpg',
             'title' => 'Sia This Is Acting',
             'author' => 'Sia',
         ],
